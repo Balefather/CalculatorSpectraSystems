@@ -1,0 +1,4 @@
+<div class="container">
+  <p class="input" >{{ expression$ | async }}</p>
+  <p class="result" [ngClass]="{'negative': +result < 0, 'positive': +result > 0}">{{ result }}</p>
+</div>

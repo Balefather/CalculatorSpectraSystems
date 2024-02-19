@@ -1,0 +1,23 @@
+.container{
+  background-color: lightgray;
+  margin: 1.5rem;
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+p{
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.negative {
+  color: red;
+}
+
+.positive {
+  color: green;
+}

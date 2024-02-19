@@ -1,0 +1,68 @@
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr) 0.1fr repeat(2, 1fr); /* Gap between third and fourth column */
+  gap: 0.5rem;
+}
+
+.buttons button {
+  padding: 1rem;
+  cursor: pointer;
+  grid-column: span 2;
+  font-size: 2rem;
+  border: none;
+  font-family: "Orbitron", sans-serif;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  height: 91px;
+}
+
+.buttons button:active {
+  transform: scale(0.9);
+}
+
+.circle-button{
+  border-radius: 1000px;
+  aspect-ratio: 1 / 1; /* Making sure the height equals width */
+}
+
+.rounded-button{
+  border-radius: 20px;
+}
+
+.grid-span-1-5{
+  grid-column: span 3 !important;
+}
+
+.grid-span-3{
+  grid-column: span 6 !important;
+}
+
+.divider{
+  grid-column: span 9 !important;
+  height: 10px;
+}
+
+.grey-button{
+  background-color: #555;
+  color: white;
+}
+
+.grey-button:hover{
+  background-color: #444;
+}
+
+.grey-button:active{
+  background-color: #222;
+}
+
+.orange-button{
+  background-color: orange;
+  color: #555;
+}
+
+.orange-button:hover{
+  background-color: darkorange;
+}
+
+.orange-button:active{
+  background-color: #b66f1a;
+}
